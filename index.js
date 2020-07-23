@@ -1,20 +1,12 @@
-let Address = {
-    BTC: require("./lib/btc.series.address"),
-    BCH: require("./lib/btc.series.address"),
-    LTC: require("./lib/btc.series.address"),
-    ETH: require("./lib/eth.address"),
-    TRX: require("./lib/trx.address")
-}
+let btcSeriesVerify = require("./lib/btc.series.verify")
+let ethVerify = require("./lib/eth.verify")
+let trxVerify = require("./lib/trx.verify")
 
-module.exports = class ChainAddress {
-    constructor(coin, networkType) {
-        networkType = networkType || coin
-        this.address = new Address[coin](coin, networkType)
-    }
-
-    async getKeyPair(index) {
-        let {pri, pub} = await this.address.getHDPrivateKey(index);
-        let {address} = await this.address.getAddress(index)
-        return {pri: pri.toString("hex"), pub: pub.toString("hex"), address};
-    };
+module.exports = {
+    "BTC": (address) => btcSeriesVerify(address, "BTC"),
+    "BTC_TEST": (address) => btcSeriesVerify(address, "BTC", "TEST"),
+    "BCH": (address) => btcSeriesVerify(address, "BCH"),
+    "LTC": (address) => btcSeriesVerify(address, "LTC"),
+    "ETH": (address) => ethVerify(address, "ETH"),
+    "TRX": (address) => trxVerify(address, "TRX"),
 }

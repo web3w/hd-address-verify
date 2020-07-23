@@ -1,36 +1,27 @@
 {
-  "name": "hd-address",
+  "name": "hd-address-verify",
   "version": "1.0.1",
-  "description": "hd address",
+  "description": "address verify",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
-    "HD",
+    "BTC",
+    "ETH",
     "wallet",
-    "bip39",
-    "bip39",
-    "bip44",
-    "wif"
+    "all"
   ],
   "author": "txdev",
   "license": "Apache-2.0 License",
   "dependencies": {
-    "bip32": "^2.0.5",
-    "bip39": "^3.0.2",
-    "bs58": "^4.0.1",
-    "coininfo": "^5.1.0",
-    "coinkey": "^3.0.0",
-    "coinstring": "^2.3.0",
-    "eckey": "^1.0.0",
-    "ethereumjs-util": "^5.2.0"
-  },
-  "devDependencies": {
     "tronweb": "^2.10.2",
     "web3": "^1.2.11",
+    "wallet-address-validator": "^0.1.7"
+  },
+  "devDependencies": {
     "bitcoinjs-lib": "^5.1.10",
-    "wallet-address-validator": "^0.1.7",
+    "hd-address": "^2.0.1",
     "mocha": "^7.1.2"
   }
 }
