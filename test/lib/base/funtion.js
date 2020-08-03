@@ -1,4 +1,4 @@
-let hdAddress = require("hd-address")()
+let hdAddress = require("hd-address").mnemonic()
 let hdIndex = 1
 
 module.exports = {

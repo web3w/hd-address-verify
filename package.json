@@ -12,7 +12,8 @@
     "ETH",
     "TRX",
     "wallet",
-    "all"
+    "all",
+    "address verfiy"
   ],
   "author": "txdev",
   "license": "Apache-2.0 License",
@@ -23,7 +24,7 @@
   },
   "devDependencies": {
     "bitcoinjs-lib": "^5.1.10",
-    "hd-address": "^2.0.1",
+    "hd-address": "^3.2.1",
     "mocha": "^7.1.2"
   }
 }

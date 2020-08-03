@@ -5,5 +5,4 @@ module.exports = {
     "LTC": "LbspHRvEu8PpyMq2EpR7rJNN5D3kzzsk9a",
     "ETH": "0xe4fa4CEFEa4ebfB79f4527a71EEF983700119d58",
     "TRX": "TQawSTYUsWvibpQURRUxJhUcLZdEbuFdGT",
-
 }
