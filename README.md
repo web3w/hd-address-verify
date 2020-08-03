@@ -1,4 +1,4 @@
-# hd-address
+# hd-address-verify
 
 BTC series, ETH,TRX address validation.  
 
