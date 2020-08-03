@@ -1,6 +1,6 @@
 # hd-address
-BTC series, ETH,TRX address validation
-[![NPM version](https://img.shields.io/npm/v/hd-address?style=flat-square)](https://www.npmjs.com/package/hd-address)
+[![NPM version](https://img.shields.io/npm/v/hd-address-verify?style=flat-square)](https://www.npmjs.com/package/hd-address-verify)
+BTC series, ETH,TRX address validation.  
 
 ### Install
 ```
