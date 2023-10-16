@@ -1,5 +1,5 @@
-let addressData = require("./address.data")
+import addressData from "./address.data.js"
 
-module.exports = {
+export default {
     ...addressData
 }

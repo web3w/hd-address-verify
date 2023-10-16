@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     "BTC": "1442MZYQMh17ZoWdLMferxM4U9ppqGQbuK",
     "BTC_TEST": "miZyecdPAiSNLuzF3ve2gsZPL9RXjA51JS",
     "BCH": "12Ut7DckjmdzU4Kx8cZeCfsyqufcrTFkFq",

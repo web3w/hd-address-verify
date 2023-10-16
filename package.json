@@ -1,6 +1,6 @@
 {
   "name": "hd-address-verify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "address verify",
   "main": "index.js",
   "scripts": {
@@ -17,14 +17,13 @@
   ],
   "author": "txdev",
   "license": "Apache-2.0 License",
-  "dependencies": {
-    "tronweb": "^2.10.2",
-    "web3": "^1.2.11",
-    "wallet-address-validator": "^0.1.7"
+  "dependencies": { 
+    "web3": "^4.1.2",
+    "bitcoinjs-lib": "^6.1.5"
   },
+  "type": "module",
   "devDependencies": {
-    "bitcoinjs-lib": "^5.1.10",
-    "hd-address": "^3.2.1",
-    "mocha": "^7.1.2"
+    "hd-address": "^3.2.2",
+    "mocha": "^10.2.0"
   }
 }
